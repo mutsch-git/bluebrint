@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.31",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
@@ -26,8 +27,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Factories\\": "Database/Factories/",
+            "Database\\Seeders\\": "Database/seeders/",
+            "Database\\Repositories\\": "Database/Repositories",
+            "Database\\Interfaces\\": "Database/Interfaces"
         }
     },
     "autoload-dev": {
